@@ -13,7 +13,7 @@ public class Tryout {
 	public static String PASSWORD = "";
 	
 	public Tryout(){
-		
+		System.out.println("Trabajando en otra rama");
 	}	
 	
 	public void addDoctor(String name, String surname, int day, int month, int year, int experience, String license, String dni) throws SQLException {
